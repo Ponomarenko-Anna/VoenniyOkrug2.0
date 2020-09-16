@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dbcad2031d6e41a495cee111335a8470" Name="Diagram1">
+        <EntityTypeShape EntityType="voenniy_okrugModel.Mladshiy_sostav" Width="1.5" PointX="0.875" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="voenniy_okrugModel.Mladshiy_zvanie" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="voenniy_okrugModel.Obiedinenie" Width="1.5" PointX="9" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="voenniy_okrugModel.Podrazdelenie" Width="1.5" PointX="6" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="voenniy_okrugModel.Sluzhashchie" Width="1.5" PointX="2.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="voenniy_okrugModel.Sooruzhenie" Width="1.5" PointX="8.625" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="voenniy_okrugModel.Specialnost" Width="1.5" PointX="4.625" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="voenniy_okrugModel.Starshiy_sostav" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="voenniy_okrugModel.Starshiy_zvanie" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="voenniy_okrugModel.Tip_boevoy_tehniki" Width="1.5" PointX="10.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="voenniy_okrugModel.Tip_obiedineniya" Width="1.5" PointX="11.125" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="voenniy_okrugModel.Tip_podrazdeleniya" Width="1.5" PointX="8.875" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="voenniy_okrugModel.Tip_transportnoy_tehniki" Width="1.5" PointX="10.875" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="voenniy_okrugModel.Users" Width="1.5" PointX="0.75" PointY="11.625" IsExpanded="true" />
+        <AssociationConnector Association="voenniy_okrugModel.FK__Mladshiy___zvani__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="voenniy_okrugModel.FK__Mladshiy_sos__id__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="voenniy_okrugModel.FK__Obiedinenie__tip__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="voenniy_okrugModel.FK__Podrazdel__id_st__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="voenniy_okrugModel.FK__Podrazdel__koman__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="voenniy_okrugModel.FK__Podrazdelen__tip__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="voenniy_okrugModel.FK__Sooruzhen__podra__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="voenniy_okrugModel.FK__Sluzhashc__id_st__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="voenniy_okrugModel.FK__Starshiy_sos__id__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="voenniy_okrugModel.FK__Starshiy___zvani__33D4B598" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="voenniy_okrugModel.Sluzhashchiy_specialnost" Width="1.5" PointX="2.625" PointY="7.75" />
+        <AssociationConnector Association="voenniy_okrugModel.FK__Sluzhashc__sluzh__59063A47" />
+        <AssociationConnector Association="voenniy_okrugModel.FK__Sluzhashc__speci__59FA5E80" />
+        <EntityTypeShape EntityType="voenniy_okrugModel.Obiedinenie_chast" Width="1.5" PointX="6" PointY="0.875" />
+        <AssociationConnector Association="voenniy_okrugModel.FK__Obiedinen__obied__5DCAEF64" />
+        <AssociationConnector Association="voenniy_okrugModel.FK__Obiedinen__chast__5CD6CB2B" />
+        <EntityTypeShape EntityType="voenniy_okrugModel.Boevaya_tehnika" Width="1.5" PointX="8.875" PointY="7.5" />
+        <EntityTypeShape EntityType="voenniy_okrugModel.Transportnaya_tehnika" Width="1.5" PointX="9" PointY="10.25" />
+        <AssociationConnector Association="voenniy_okrugModel.FK__Boevaya_t__podra__619B8048" />
+        <AssociationConnector Association="voenniy_okrugModel.FK__Boevaya_teh__tip__60A75C0F" />
+        <AssociationConnector Association="voenniy_okrugModel.FK__Transport__podra__656C112C" />
+        <AssociationConnector Association="voenniy_okrugModel.FK__Transportna__tip__6477ECF3" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
